@@ -29,7 +29,7 @@ def main():
     print("accuracy: %s" % accuracy)
     trainingaccuracy = exported_pipeline.score(training_features, training_target)
     print("trainingaccuracy: %s" % trainingaccuracy)
-    print('r2_score(越接近1越好)：', r2_score(testing_target, exported_pipeline.predict(testing_features)))
+    print('r2_score：', r2_score(testing_target, exported_pipeline.predict(testing_features)))
     mse = mean_squared_error(testing_target, exported_pipeline.predict(testing_features))
     print("testingMSE: %.4f" % mse)
     mse2 = mean_squared_error(training_target, exported_pipeline.predict(training_features))
