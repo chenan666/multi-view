@@ -19,11 +19,9 @@ As of the date of this release, the available documentation is contained in the 
 ## Useage
 - All original training data can be obtained from the "./datadata_182-3A-ver2.csv" file  
 - model.py: For model training
-- selection_filter.py: 
-- selection_wrapper.py: 
-- selection_wrapper.py:
-- select_magip.py:
-- 
+- selection_filter.py: Filter module
+- selection_wrapper.py: Wrapper module
+- selection_embedded.py: Embedded module
 - All data are available from the "data" folder  
 
 ## Having problems & Contact
