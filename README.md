@@ -1,6 +1,6 @@
 # A machine learning framework embedded with multi-view feature engineering 
 
-*Interpretable multi-view machine-learned framework (IMVF)*
+*Interpretable multi-view machine-learning framework (IMVF)*
 ---
 
 ## Documentation
